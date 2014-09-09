@@ -1,0 +1,13 @@
+# Piwik requirements Nginx+php <-> Mysql
+web:
+  build: . 
+  links:
+    - db
+  ports:
+    - "8000:80"
+  volumes:
+    - /home/ubuntu/piwik:/app
+db:
+  build: ./mysql/
+  volumes:
+    - /home/ubuntu/data/mysql:/var/lib/mysql
