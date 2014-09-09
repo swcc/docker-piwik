@@ -1,4 +1,4 @@
-FROM bradfeehan/php-nginx
+FROM alreece45/phusion-nginx-php
 
 # Install APT extra php5-fpm dependencies
 RUN apt-get update
