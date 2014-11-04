@@ -1,0 +1,7 @@
+/docker
+/docker.pub
+/ssl/*.crt
+/ssl/*.key
+/mysql/docker.pub
+/mysql/docker
+fig.yml

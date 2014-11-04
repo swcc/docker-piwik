@@ -6,7 +6,7 @@ web:
   ports:
     - "8000:80"
   volumes:
-    - /home/ubuntu/piwik:/app
+    - /home/ubuntu/piwik:/var/www
 db:
   build: ./mysql/
   volumes:
